@@ -1,0 +1,11 @@
+// app global css in SCSS form
+:root {
+    --orange: darkorange;
+}
+.q-layout__section--marginal {
+    background: var(--q-color-dark);
+}
+
+.q-page {
+    background: #20282b;
+}
