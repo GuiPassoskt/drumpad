@@ -1,4 +1,5 @@
 {
+  "homepage": "https://guipassoskt.github.io/drumpad",
   "name": "drumpad",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
@@ -7,7 +8,9 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "pwa": "quasar build -m pwa",
+    "deploy": "gh-pages -d dist/pwa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
